@@ -18,9 +18,6 @@ upperLetter = []
 for item in letters:
   upperLetter.append(item.upper())
 
-
-
-#for num_letters in letters:
 while x < num_letters:
   if x % 2 == 0:
     password_letter.append(random.choice(letters))
